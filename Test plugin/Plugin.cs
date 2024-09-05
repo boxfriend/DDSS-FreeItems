@@ -23,14 +23,6 @@ public class Plugin : BaseUnityPlugin
 public class FreeItemsPatch
 {
     [HarmonyPrefix]
-    [HarmonyPatch(nameof(Currency.ItemManager.SubtractCurrency))]
-    public static bool SubtractPatch (ref bool __result, int amount)
-    {
-        __result = true;
-        return false;
-    }
-
-    [HarmonyPrefix]
     [HarmonyPatch("IsItemOwned")]
     public static bool ItemOwnedPatch(ref bool __result)
     {
