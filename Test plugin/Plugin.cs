@@ -24,15 +24,8 @@ public class FreeItemsPatch
 {
     [HarmonyPrefix]
     [HarmonyPatch("IsItemOwned")]
-    public static bool ItemOwnedPatch(ref bool __result)
-    {
-        __result = true;
-        return false;
-    }
-
-    [HarmonyPrefix]
     [HarmonyPatch("IsColorItemOwned")]
-    public static bool ColorItemOwnedPatch (ref bool __result)
+    public static bool ItemOwnedPatch(ref bool __result)
     {
         __result = true;
         return false;
