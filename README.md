@@ -1,6 +1,9 @@
 # Free Items
 #### A Mod for Dale & Dawson Stationery Supplies
+## This is already deprecated
+In a recent update the devs switched to IL2CPP instead of Mono which they had been using. I have no experience with modding IL2CPP games so I don't think this will work and I'm not (yet) sure how to make it work.
 
+## Info
 I made this mod because I didn't want to grind a whole bunch just for a few silly cosmetic items. So now we have access to them for free.
 
 ## How to install:
